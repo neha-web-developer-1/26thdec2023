@@ -1,4 +1,14 @@
-
+.dropdown-x-menu{
+  
+  position: absolute;
+  width: 250px;
+}
+.dropdown-x{
+  position: relative;
+}
+.dropdown-x:hover .dropdown-x-menu{
+display: block;
+}
 
 .App-logo {
   height: 40vmin;
